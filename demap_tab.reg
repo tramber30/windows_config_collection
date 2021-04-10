@@ -1,0 +1,30 @@
+Windows Registry Editor Version 5.00
+
+; Disable Caps Lock (Verr Maj) key
+; [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+; "Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,00,00,3A,00,00,00,00,00
+
+; Delete previous entry
+; [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+; "Scancode Map"=-
+
+; Remap right ctrl to mute
+; [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+; "Scancode Map"=hex:00,00,00,00,00,00,00,00,02,00,00,00,20,E0,1D,E0,00,00,00,00
+
+; Full Map
+; Caps Lock => Left Alt
+; Right Ctrl =>  Caps
+; Right Win => volume mute 
+; [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+; "Scancode Map"=hex:00,00,00,00,00,00,00,00,04,00,00,00,38,00,3A,00,20,E0,5C,E0,3A,00,1D,E0,00,00,00,00
+; | Dest  | Src  |                                                                         | lAlt  | Caps |Mute| rWin  | Caps | rCtrl  |
+
+
+; Full Map
+; Caps Lock => right ctrl
+; Right Win => volume mute 
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,1D,E0,3A,00,20,E0,5C,E0,00,00,00,00
+; | Dest  | Src  |                                                                         | rCtrl | Caps |Mute| rWin  |
+

@@ -1,0 +1,27 @@
+{
+    "workbench.colorTheme": "Solarized Light",
+    "telemetry.enableTelemetry": false,
+    "workbench.iconTheme": "vs-minimal",
+    "workbench.colorCustomizations": {
+            "editor.background": "#FEF9EC",
+            "editorCursor.background": "#eecf45",
+            "tab.border": "#6b8f91",
+            "tab.activeBackground": "#e7af6f",
+            "sideBar.background": "#c0c0bd",
+            "panel.border": "#6b8f91",
+            "terminal.background": "#f8f0dc",
+            "sideBar.border": "#6b8f91",
+            "sideBarSectionHeader.background": "#8b8b8a",
+            "sideBarSectionHeader.foreground": "#0c0c0c",
+            "sideBarSectionHeader.border": "#6b8f91",
+            "statusBar.background": "#c0c0bd",
+            "statusBar.foreground": "#0c0c0c",
+            "statusBar.border": "#6b8f91",
+            "button.border": "#6b8f91",
+            "list.activeSelectionBackground": "#e7af6f",
+            "list.focusBackground": "#e7af6f",
+            "activityBar.activeBackground": "#e7af6f",            
+            "activityBar.activeFocusBorder": "#6b8f91",
+            "editor.selectionBackground": "#f8e807"
+    }
+}
